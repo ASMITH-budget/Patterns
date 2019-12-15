@@ -12,15 +12,15 @@ namespace Observer
 
         static void CheckEvent()
         {
-            var personFirst= new Person();
+            var personFirst = new Person();
             var personSecond = new Person();
             var doctor = new Doctor();
 
-            personFirst.FallsIll+=doctor.CallDoctor;
-            personSecond.FallsIll+=doctor.CallDoctor;
+            personFirst.FallsIllEvent += doctor.OnCallDoctor;
+            personSecond.FallsIllEvent += doctor.OnCallDoctor;
 
-            personFirst.CatchACold("Simonova St.");
-            personSecond.CatchACold("Lenina St.");
+            personFirst.CatchACold("Simonova St.",27);
+            personSecond.CatchACold("Lenina St.",111);
         }
     }
 }
