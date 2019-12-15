@@ -1,0 +1,11 @@
+/home/asmith/Patterns/Observer/bin/Debug/netcoreapp3.1/Observer
+/home/asmith/Patterns/Observer/bin/Debug/netcoreapp3.1/Observer.deps.json
+/home/asmith/Patterns/Observer/bin/Debug/netcoreapp3.1/Observer.runtimeconfig.json
+/home/asmith/Patterns/Observer/bin/Debug/netcoreapp3.1/Observer.runtimeconfig.dev.json
+/home/asmith/Patterns/Observer/bin/Debug/netcoreapp3.1/Observer.dll
+/home/asmith/Patterns/Observer/bin/Debug/netcoreapp3.1/Observer.pdb
+/home/asmith/Patterns/Observer/obj/Debug/netcoreapp3.1/Observer.csprojAssemblyReference.cache
+/home/asmith/Patterns/Observer/obj/Debug/netcoreapp3.1/Observer.AssemblyInfoInputs.cache
+/home/asmith/Patterns/Observer/obj/Debug/netcoreapp3.1/Observer.AssemblyInfo.cs
+/home/asmith/Patterns/Observer/obj/Debug/netcoreapp3.1/Observer.dll
+/home/asmith/Patterns/Observer/obj/Debug/netcoreapp3.1/Observer.pdb
