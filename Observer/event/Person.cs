@@ -3,11 +3,12 @@ using Observer.Event;
 
 namespace Observer.Event
 {
-    public delegate void DoctorEventHandler<T>(object sender, FallsIllEventArgs eventArgs);
+    public delegate void DoctorEventHandler<T>(object sender, FallsIllEventArgs eventArgs) where T : FallsIllEventArgs;
 
     public class Person
     {
-        public event DoctorEventHandler<FallsIllEventArgs> FallsIllEvent;
+        public event DoctorEventHandler<FallsIllEventArgs> FallsIllEvent ;
+        
 
         public void CatchACold(string address, int house)
         {
